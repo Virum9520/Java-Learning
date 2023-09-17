@@ -22,7 +22,7 @@ public class Guessing_game {
         int guess,num,no_of_guesses=0;
         public Game() {
             Random rand = new Random();
-            num = rand.nextInt(0,100);
+            num = rand.nextInt(0,1);
             System.out.println("Guess a number");
         }
         void take_input(){
